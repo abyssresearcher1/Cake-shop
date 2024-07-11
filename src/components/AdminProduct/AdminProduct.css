@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.admin-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.editBtn {
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+}
+
+.leftBtn {
+  position: relative;
+}
+
+.rightBtn {
+  position: relative;
+}
+
+.EditPriceIcon {
+  position: absolute;
+  left: 100px;
+  bottom: 3px;
+}
+
+.deleteBtn {
+  background-color: transparent;
+  border: none;
+}
+
+.EditIcon {
+  position: absolute;
+  left: 205px;
+  top: 24px;
+}
